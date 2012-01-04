@@ -40,6 +40,8 @@
 		</Compiler>
 		<Unit filename="Block.cpp" />
 		<Unit filename="Block.h" />
+		<Unit filename="World.cpp" />
+		<Unit filename="World.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
