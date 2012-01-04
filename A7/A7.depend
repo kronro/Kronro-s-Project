@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1325707868 source:c:\users\leonard\codeblocks projects\a7\main.cpp
+	<iostream>
+	<vector>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	"Block.h"
+
+1325707900 source:c:\users\leonard\codeblocks projects\a7\block.cpp
+	"Block.h"
+
+1325707357 c:\users\leonard\codeblocks projects\a7\block.h
+	<SFML/Graphics.hpp>
+
