@@ -4,11 +4,16 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include "Block.h"
+#include "World.h"
 
 using namespace std;
 
 int main()
 {
+    World World;
+    sf::Image Terrain;
+    Terrain.LoadFromFile("terrain.png");
+    World.setTerrain(Terrain);
     sf::RenderWindow App(sf::VideoMode(800,600,32),"A6");
     while(App.IsOpened())
     {
@@ -21,6 +26,7 @@ int main()
             }
         }
         App.Clear();
+        World.draw(App);
         App.Display();
     }
     cout << "Hello world!" << endl;
